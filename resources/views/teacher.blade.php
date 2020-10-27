@@ -7,16 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <ul>
-        @foreach ($students as $student)
-            <li>{{$student->name}}</li>
-            <li>{{$student->lastname}}</li>
-            <li>{{$student->gender}}</li>
-            <li>{{$student->date_of_birth}}</li>
-            <br>
-        @endforeach
-</ul>
 
+    <ul>
+        @foreach ($teachers as $teacher)
+        <li>{{$teacher->name}}</li>
+        <li>{{$teacher->lastname}}</li>
+        <li>{{$teacher->gender}}</li>
+        <li>{{$teacher->date_of_birth}}</li>
+        <br>
+        @endforeach
+    </ul>
+    
 </body>
 </html>

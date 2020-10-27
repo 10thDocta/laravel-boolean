@@ -19,7 +19,6 @@ class CreateStudentsTable extends Migration
             $table->string('lastname', 30)->nullable($value = false);
             $table->string('gender', 1)->nullable($value = false);
             $table->date('date_of_birth')->nullable($value = false);
-            $table->string('test')->nullable($value = true);
             $table->timestamps();
         });
     }
